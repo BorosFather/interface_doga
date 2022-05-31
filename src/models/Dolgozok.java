@@ -1,16 +1,24 @@
+/*
+* File: Dolgozok.java
+* Author: Boros Zoltán
+* Copyright: 2022, Boros Zoltán
+* Group: Szoft I N
+* Date: 2022-05-31
+* Github: https://github.com/BorosFather/
+* Licenc: GNU GPL
+*/
+
 package models;
 
 public class Dolgozok {
-    int id;
+    public int id;
     public String name;
-    String city;
-    public int beoszasId;
+    public int beosztasId;
 
-    public Dolgozok(int id, String name, String city, int beoszasId){
+    public Dolgozok(int id, String name,  int beosztasId){
             this.id = id;
             this.name = name;
-            this.city = city;
-            this.beoszasId = beoszasId;
+            this. beosztasId =  beosztasId;
     }
 }
 
